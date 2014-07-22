@@ -1,4 +1,9 @@
 **/Debug/*
 **/*.ncb
 **/*.user
-
+**/*.suo
+**/temp/*
+**/.settings
+**/.project
+**/.pydevproject
+**/*.pyc
