@@ -1,0 +1,6 @@
+     1	1.0K	./args.sh
+     2	1.0K	./myfunc.sh
+     3	2.0K	./mytest.sh
+     4	1.0K	./out.txt
+     5	3.0K	./regular.txt
+     6	0	./size.txt
