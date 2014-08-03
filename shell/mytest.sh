@@ -56,6 +56,19 @@ done
 IFS=oldIFS
 
 
+ps -ef | grep ps
+du -sh mytest.sh
+
+ls | xargs -n 2 args.sh
+echo "2345" | tr "0-9" "9876543210"
+echo "ChinaRen" | tr "[:lower:]" "[:upper:]"
+
+find . -type f | xargs du -sh | cat -n >size.txt
+sort -nrk 1 size.txt
+echo 
+sort -k 2 size.txt
+
+ls -l | awk '{ print $9 }'
 
 timeEnd=$(date +%s)
 timeDiff=$((timeEnd-timeStart))
